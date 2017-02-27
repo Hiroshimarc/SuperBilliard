@@ -8,11 +8,21 @@ import javafx.scene.shape.Rectangle;
  * Classe Table qui permet de créer une talbe de billard en entrant les coordonnées, les dimensions et les couleurs de la table
  *
  * @author Victor Rondeau
- * 2017-02-20  Version 2
+ * 2017-02-27  Version 2.1
  */
 public class Table extends Pane {
     
-    
+    /**
+     * Constructeur de la classe Table qui prend les posisitions, les dimensisons et les couleurs pour créer une Table
+     *
+     * @param positionX1 Coordonnée en X de la table à partir du rectangle du centre
+     * @param positionY1 Coordonnée en Y de la table à partir du rectangle du centre
+     * @param longueur1 Longueur de la table (Côté horizontal)
+     * @param largeur1 Largeur de la table (Côté vertical)
+     * @param couleur1 Couleur du rectangle du centre
+     * @param couleur2 Couleur du rebord de la table
+     * @param couleur3 Couleur de l'ombre du rebord
+     */
     public Table(int positionX1, int positionY1, int longueur1, int largeur1, Color couleur1, Color couleur2, Color couleur3){
         Rectangle table = new Rectangle(positionX1+20,positionY1+20,longueur1, largeur1);
         table.setFill(couleur1);
