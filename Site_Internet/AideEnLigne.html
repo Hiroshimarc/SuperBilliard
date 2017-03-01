@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Aide SuperBillard </title>
+		<link rel="shortcut icon" type="image/x-icon" href="iconeweb.png" />
+		<style>
+			body{background-image: url("wallpaper.jpg")}
+			article{background-color: black;color: white}
+			p{background-color: yellow; color: black; font-size: 24px}
+			li{background-color: yellow; color: black; font-size: 18px}
+			input{font-size:24px}
+			section{background-color: yellow;}
+			footer{background-color: blue; color:white;}
+		</style>
+	</head>
+	<body>
+	
+	<article display:inline-block;margin-right:20px;>
+		<img src="searchicon.png" width="2%" height="2%">
+		<input id="search" name="searchitem" type="search" placeholder="Rechercher" list="optionsderecherche">
+			<datalist id="optionsderecherche">
+			<option value="menu principal">
+			<option value="menu options">
+			<option value="menu aide">
+			<option value="manuel d'inctructions">
+			</datalist>
+			
+		<button onclick="myFunction()">Rechercher</button>
+	</article>
+		</br>
+		<center>
+		<img src="Logo.png">
+		</center>
+
+		<article>
+		<h1> Manuel de jeu </h1>
+		</article>
+		
+		<p> Sommaire </p>
+		<ol>
+			<li> <a href="#menu principal">Menu principal</a> </li>
+			<li> <a href="#menu options">Menu options</a> </li>
+			<li> <a href="#menu aide">Menu aide</a> </li>
+			<li> <a href="#manuel d'inctructions">Manuel d'instruction</a> </li>
+		</ol>
+		
+		<aside>
+		<center>
+		<form>
+	    <textarea rows="5" cols="100" placeholder="Commentaire">
+		</textarea>
+		<input type="submit" value="Envoyer"/>
+		</form>
+		</center>
+		</aside>
+		
+		
+		
+		<article>
+		<a id="menu principal"><h2> Menu principal </h2> </a>
+		</article>
+		<p> En ouvrant l'application, le menu ci-dessous s'affichera. Vous aurez le choix de demarrer une partie avec des valeurs par defaut (masse des balles, frottement de la table et grandeur des balles). Vous pouvez egalement definir vos propres parametres dans le <a href="#menu options">menu options.</a></p>
+		<center>
+		<img src="ImageMenuPrincipal.png" width="50%" height="50%" >
+		</center>
+		<br/>
+		
+		<article>
+		<a id="menu jouer"><h2> Menu jouer </h2> </a>
+		</article>
+		<p> Il s'agit de l'interface du jeu. Elle vous permet de regarder votre partie et de gerer la vitesse et l'angle de tir a chaque tour. </p>
+		<center>
+		<img src="ImageMenuJouer.png" width="50%" height="50%" >
+		</center>
+		<br/>
+		
+		<article>
+		<a id="menu options"><h2> Menu options </h2> </a>
+		</article>
+		<p> Comme mentionne dans la section precedente, le menu options vous permet de modifier les parametres du jeu, qui vous procureront une semsation de jouer a un jeu de billard hors du commun.</p>
+		</center>
+		<br/>
+		<p> Modifiez: </p>
+		<ul>
+			<li> Coefficient de frottement du tapis ! </li>
+			<li> Masse des balles ! </li>
+			<li> Taille des balles ! </li>
+			<li> Couleur du tapis ! </li>
+		</ul>
+		<center>
+		<img src="ImageMenuOptions.png" width="50%" height="50%" >
+		</center>
+		<br/>
+		
+		<article>
+		<a id="menu aide"><h2> Menu aide </h2> </a>
+		</article>
+		<p> Le menu aide vous permet d'obtenir de l'aide en jouant. Le contenu est egalement disponible lorsque vous etes hors-ligne. </p>
+	    <center>
+		<img src="ImageMenuAide.png" width="50%" height="50%" >
+		</center>
+		<br/>
+		
+		<article>
+		<a id="manuel d'instructions"><h2> Manuel d'instruction </h2> </a>
+		</article>
+		<section>
+		<p>
+		<ul>
+		<li> Initialiser une partie </li>
+			<ol>
+				<li>Demarrer l'application </li>
+				<li>Au besoin, personnaliser les parametres de la physique du jeu en accedant au <a href="#menu options">menu options.</a> </li>
+				<li>Appuyer sur le bouton jouer </li>
+				<li>Selectionner une force de tir a l'aide du curseur. La couleur verte représente une force faible tandisque la couleur rouge represente une force puissante </li>
+				<li>Repeter ces etapes de tour en tour </li>
+			</ol>
+		</ul>
+		</p>
+		</section>
+		
+		<footer> 
+		Par: Marc-Antoine Lachance, Vittorio Passuello-Dussault, Edouard Raffis et Victor Rondeau
+		</footer>
+		
+		
+		<script>
+			function myFunction() {
+				var y = document.getElementById("search").value;
+				var x = 'file:///E:/SuperBillard/SuperBillard_V1/AideEnLigne.html#'+y;
+				window.open(x);
+			}
+		</script>
+
+
+
+		
+	</body>
+</html>
