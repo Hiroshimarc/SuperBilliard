@@ -1,2 +1,0 @@
-# SuperBilliard
-MEILLEUR BILLIARD
