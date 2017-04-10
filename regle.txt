@@ -1,0 +1,32 @@
+Reglements abreges :
+
+1. Chaque joueur sera associe a un jeu de balles ayant un motif different (balles pleines ou balles rayees) 
+2. Chaque joueur doit uniquement rentrer les balles qui lui sont associees 
+3. La balle pleine de couleur noire (balle 8) peut cependant etre rentree par les deux equipes 
+4. La balle 8 doit imperativement etre entree en dernier 
+5. La seule balle qui peut etre frappee directement par le joueur est la balle blanche 
+6. La balle blanche ne doit pas etre rentree dans un trou, sans quoi le joueur devra ceder son tour a l'autre 
+
+Comment demarer une partie :
+
+1.Demarrer l'application 
+2.Au besoin, personnaliser les parametres de la physique du jeu en accedant au menu options
+3.Appuyer sur le bouton jouer 
+4.Selectionner une force de tir a l'aide du curseur. La couleur verte represente une force faible tandis que la couleur rouge represente une force puissante 
+5.Repeter ces etapes de tour en tour 
+
+-Effectuer un tour (Version 2) 
+1.Selectionnez d'abord le menu jouer dans le menu principal
+2.Selectionnez, a partir du slider, une vitesse a donner a la balle
+3.Entrez, dans la boite de texte prevue a cet effet, un angle a donner a la balle (en degres)
+4.Appuyez sur le bouton OK pour effectuer le lance
+5.Attendre la fin du roulement de la balle avant d'effectuer un autre lance
+
+-Modifier les parametres de partie 
+1. Pour modifier les parametres de la physique du jeu, veuillez acceder au menu options
+2. L'angle et la vitesse de tir sont deux parametres qui peuvent etre modifies dans le menu jouer
+3. Pour modifier la couleur du tapis de la table, veuillez acceder au menu options 
+
+Important:
+-Le Slider qui permet d'ajuster la vitesse va de 0 m/s a 4 m/s
+- Vous pouvez entrer la valeur d'angle de votre choix, tant que celle-ci soit en degres
