@@ -1,0 +1,21 @@
+Changement dans la version 4 balles.
+
+MenuJouer
+Ajout de :
+  frottementLabel, frottementValeur -> position plus nom 
+  Code pour le changement de frottement -> ligne ~580
+  Changer Image de table -> enlever le contour blanc (plus possible)
+  Vérifier si les tooltips sont présents
+Enlevé :
+  tout ce qui concerne le boutonDemarrer 
+  
+  
+EnsembleDeBalles
+  Modifier initialiserBalles() et EnsembleDeBalles() pour qu'elle place bien les balles
+  Enlever toute les balles sauf la balle blanche plus les balles 1,2,3,4
+  Tout ce qui est en lien avec les balles -> get() set()...
+  
+J'ai aussi enlever les classes modele Gestion et Joueur puisuqu'elle ne servent a rien dans cette version et ne font 
+que prendre de la mémoire
+
+Il faut aussi enlever toute les unusedImport
